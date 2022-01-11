@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-Box</title>
+    <link rel="shortcut icon" href="images/ice-cream.jpg" type="image/x-icon">
+    <style>
+        .container {
+            border: 2px dotted slategray;
+            height: 400px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+
+        .box {
+            width: 200px;
+            border: 2px dashed blueviolet;
+            font-size: 3em;
+
+        }
+
+        #box1 {
+            order: 2;
+        }
+
+        #box2 {
+            order: 1;
+            flex-grow: 1;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <h1>I am flexible right now...</h1>
+    <div class="container">
+        <div id="box1" class="box">Box-1</div>
+        <div id="box2" class="box">Box-2</div>
+
+    </div>
+</body>
+
+</html>
