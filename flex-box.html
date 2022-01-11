@@ -10,26 +10,26 @@
     <style>
         .container {
             border: 2px dotted slategray;
-            height: 400px;
+            height: 500px;
             display: flex;
-            justify-content: space-between;
-            align-items: center;
+            /* justify-content: space-between;
+            align-items: center; */
 
         }
 
         .box {
             width: 200px;
             border: 2px dashed blueviolet;
-            font-size: 3em;
+            /* font-size: 3em; */
 
         }
 
         #box1 {
-            order: 2;
+            /* order: 2; */
         }
 
         #box2 {
-            order: 1;
+            /* order: 1; */
             flex-grow: 1;
         }
     </style>
@@ -41,7 +41,27 @@
     <h1>I am flexible right now...</h1>
     <div class="container">
         <div id="box1" class="box">Box-1</div>
-        <div id="box2" class="box">Box-2</div>
+        <div id="box2" class="box">
+            <h3>BOX-2</h3>
+            <article class="blog">
+                <h4>Blog-1</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim ratione ab quae! Quia recusandae id nam
+                    commodi voluptas rerum debitis, in, culpa unde aliquam omnis molestias sed consequuntur quo
+                    aspernatur.</p>
+            </article>
+            <article class="blog">
+                <h4>Blog-2</h4>
+                <p>Atque, vero laborum, consequatur nemo harum reprehenderit accusantium quidem repellat repellendus
+                    inventore doloribus facere perferendis corporis quisquam eius unde neque maiores consequuntur
+                    architecto fuga voluptatibus, dolores eligendi soluta. Neque, reprehenderit.</p>
+            </article>
+            <article class="blog">
+                <h4>Blog-3</h4>
+                <p>Fuga deserunt tempora nostrum cumque error odit, possimus iure magnam sapiente consectetur et id,
+                    similique voluptatem quasi obcaecati itaque sint quae recusandae, officia autem? Eveniet consectetur
+                    delectus corrupti rerum amet.</p>
+            </article>
+        </div>
 
     </div>
 </body>
